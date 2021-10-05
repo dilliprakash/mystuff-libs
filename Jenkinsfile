@@ -3,44 +3,9 @@ pipeline{
     stages{
         stage("welcome"){
             steps{
-                echo "hello jenkins file"
+                echo "hello webhook"
             }
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
