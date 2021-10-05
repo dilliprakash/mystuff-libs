@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("welcome"){
             steps{
-                welcome ("dilliprakash")
+                echo "hello jenkins file"
             }
         }
     }
